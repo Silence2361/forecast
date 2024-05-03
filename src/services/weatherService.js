@@ -39,5 +39,4 @@ class WeatherService{
 }
 
 
-
-export default WeatherService
+export default new WeatherService()
