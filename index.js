@@ -1,13 +1,13 @@
 import express from 'express'
 import dotenv from 'dotenv'
-import mongoose from 'mongoose'
+// import mongoose from 'mongoose'
 import router from './src/routers/weatherRouter.js'
 import cors from 'cors'
 
 dotenv.config()
 const app = express()
 
-const DB_URL = process.env.DB_URL
+// const DB_URL = process.env.DB_URL
 const PORT = process.env.PORT || 3000
 
 app.use(cors())

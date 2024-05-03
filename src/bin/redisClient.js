@@ -1,15 +1,15 @@
-import redis from 'redis'
+// import redis from 'redis'
 
 
-const redisUrl = process.env.REDIS_URL || 'redis://localhost:6379';
-const redisClient = redis.createClient({
-  url: redisUrl
-});
+// const redisUrl = process.env.REDIS_URL || 'redis://localhost:6379';
+// const redisClient = redis.createClient({
+//   url: redisUrl
+// });
 
-redisClient.on('error', (err) => console.error('Redis Client Error', err));
+// redisClient.on('error', (err) => console.error('Redis Client Error', err));
 
-(async () => {
-  await redisClient.connect();
-})();
+// (async () => {
+//   await redisClient.connect();
+// })();
 
-export default redisClient;
+// export default redisClient;
