@@ -1,0 +1,18 @@
+.app-color-white {
+    background: white;
+}
+
+.app-color-dark {
+    background: rgb(10, 20, 20);
+}
+
+.wrapper {
+    padding: 10px;
+    margin: 0 auto;
+    max-width: 1200px;
+    min-height: 100vh;
+
+    @media (max-width: 900px) {
+        padding: 20px;
+    }
+}
