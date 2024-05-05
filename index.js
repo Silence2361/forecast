@@ -15,8 +15,7 @@ app.use(express.json())
 app.use('/api', router)
 
 
-
-const start = async() => {
+const start = async() => { 
     try {
         // await mongoose.connect(DB_URL)
         app.listen(PORT, () => console.log(`server is working on port = ${PORT}`))
